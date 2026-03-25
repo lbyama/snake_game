@@ -7,5 +7,4 @@
 int main()
 {
     std::unique_ptr<Game> game(new Game());
-    std::cout << "Hello World!\n";
 }

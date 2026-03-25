@@ -129,6 +129,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="header\apple.h" />
+    <ClInclude Include="header\direction.h" />
     <ClInclude Include="header\game.h" />
     <ClInclude Include="header\snake.h" />
     <ClInclude Include="header\tileboard.h" />
@@ -158,8 +159,11 @@
     <ClInclude Include="packages\Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.8\build\native\include\gtest\internal\gtest-type-util.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\tileboard.cpp" />
+    <ClCompile Include="src\snake.cpp" />
+    <ClCompile Include="src\game.cpp" />
+    <ClCompile Include="src\apple.cpp" />
     <ClCompile Include="src\snake_game.cpp" />
-    <ClCompile Include="test\test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />

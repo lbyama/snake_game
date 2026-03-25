@@ -3,6 +3,6 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="../snake_test/snake_test.vcxproj" />
-  <Project Path="snake_game.vcxproj" />
+  <Project Path="../snake_test/snake_test.vcxproj" Id="6b36228d-dd79-4948-af18-b55f72518b6a" />
+  <Project Path="snake_game.vcxproj" Id="eb78da86-b41b-4175-914a-d38ebd7fb55f" />
 </Solution>
